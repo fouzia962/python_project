@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Product Page</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Navigation Bar -->
+  <header class="navbar">
+    <div class="logo"><img src="logo.png"></div>
+    <nav>
+      <ul>
+        <li><a href="#">MEN</a></li>
+        <li><a href="#">WOMEN</a></li>
+        <li><a href="#">KIDS</a></li>
+        <li><a href="#">CUSTOMISED</a></li>
+    </ul> 
+    </nav>
+    <div class="auth">
+      <div class="cart"><img src="Cart.png"></div>
+      <div class="search"><img src="search.png"></div>
+     <div class="Signup"> <a href="#">Signup</a></div>
+    </div>
+  </header>
+
+  <!-- Main Section -->
+  <main class="product-section">
+    <h2 class="collection-title">NEW COLLECTION</h2>
+    <h1 class="product-title">SHOES</h1>
+    <p class="product-description">
+      NIKE RACING SHOES ARE SUPER <br>
+      LIGHT,WITH LITTLE TO NO HEEL <br>
+      DROP
+    </p>
+    <p class="price">$160</p>
+    <div class="buttons">
+      <button class="add-to-cart">Add to Cart</button>
+      <button class="buy-now">Buy Now</button>
+    </div>
+    <div class="product-image">
+      <img src="shoes.png" alt="Nike Shoes">
+    </div>
+  </main>
+  <script type="text/javascript">
+    // JavaScript for button functionality
+document.querySelector('.add-to-cart').addEventListener('click', () => {
+  alert('Item added to cart!');
+});
+
+document.querySelector('.buy-now').addEventListener('click', () => {
+  alert('Proceeding to checkout!');
+});
+  </script>
+</body>
+</html>
